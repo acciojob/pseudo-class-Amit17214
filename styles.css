@@ -1,11 +1,11 @@
 /*  your css code here. If applicable */
 div p{
 	display:inline;
-	font-weight:80px;
+	font-weight:bold;
 }
 
 div p:nth-child(odd){
-	color:red;
+	color:rgb(255, 0, 0);
 	font-size:20px;
 	
 }
