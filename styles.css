@@ -1,5 +1,11 @@
 /*  your css code here. If applicable */
-body{
-	display:flex;
-	justify-content:space-between;
+div p{
+	display:inline;
+	font-weight:80px;
+}
+
+div p:nth-child(odd){
+	color:red;
+	font-size:20px;
+	
 }
