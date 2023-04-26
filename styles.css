@@ -1,11 +1,20 @@
 /*  your css code here. If applicable */
-div p{
+/* div p{
 	display:inline;
 	font-weight:bold;
 }
 
-div p:nth-child(odd){
+div p::nth-child(odd){
 	color:rgb(255, 0, 0);
 	font-size:20px;
 	
+} */
+p::after{
+	content:" After Element";
+	color: rgb(255, 0, 0);
+}
+
+p::before{
+	content:"Before Element ";
+	color: rgb(255, 0, 0);
 }
