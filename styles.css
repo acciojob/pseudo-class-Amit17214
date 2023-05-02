@@ -9,12 +9,16 @@ div p::nth-child(odd){
 	font-size:20px;
 	
 } */
-p::after{
-	content:" After Element";
-	color:rgb(255, 0, 0);
+div::after{
+	content: "After Element";
+	color: rgb(255, 0, 0);
+	font-size: 20px;
+	font-weight:bold;
 }
 
-p::before{
-	content:"Before Element ";
+div::before{
+	content: "Before Element";
 	color: rgb(255, 0, 0);
+	font-size: 20px;
+	font-weight:bold;
 }
